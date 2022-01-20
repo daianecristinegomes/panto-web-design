@@ -9,12 +9,12 @@ import "../src/fonts/gilroy-bold.ttf";
 function App() {
   return (
     <>
-      
-      <Header/>
-      
-      <Main/>
 
-      <Footer/>
+      <Header />
+
+      <Main />
+
+      <Footer />
 
     </>
   );

@@ -53,6 +53,7 @@ input {
     color: #FFFFFF; 
 }
 .placeholder::placeholder {
+    font-family: 'Gilroy';
     font-size: 18px;
     line-height: 150%;
     opacity: 0.8;
@@ -176,4 +177,84 @@ h3 {
     width: 556px;
     height: 132px;
     margin-right: 68px;
+}
+
+@media screen and (max-width: 680px) {
+    .main-text {
+        width: 320px;
+        color: #1E1E1E;
+        margin-top: 175px;
+        font-size: 40px;
+
+    }
+
+    .sub-title {
+        width: 315px;
+        font-size: 22px;
+        color: #1E1E1E;
+    }
+
+    .placeholder {
+        width: 220px;
+        height: 40px;
+        margin-top: 3px;
+        background: #495059
+
+    }
+
+    .input-search {
+        margin-top: 25px;
+        margin-bottom: 2px;
+        
+    }
+
+    .icon-search {
+        margin-left: 180px;
+        margin-top: 7px;
+        width: 33px;
+        height: 33px;
+    }
+
+    h3 {
+        margin: 40px auto;
+        font-size: 29px;
+    }
+
+    article {
+        margin-bottom: 23px;
+    }
+
+    .section-two {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .section-tree {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-living-room {
+        width: 97%;
+        margin-top: 25px;
+        height: auto;
+        margin-left: 0;
+
+    }
+
+    .experiences {
+        margin-left: 22px;
+        margin-top: 15px;
+    }
+
+    .paragraph-section-tree {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .simple-paragraph {
+        width: 300px;
+        height: 200px;
+    }
 }

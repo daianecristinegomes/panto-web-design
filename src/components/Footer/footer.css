@@ -98,3 +98,20 @@ h6 {
     color: #1E1E1E;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 680px) {
+    .ul-footer{
+        width: 70%;
+    }
+    .end-footer {
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .copyright {
+       position: absolute;
+       margin-top: 30px;
+       margin-right: 0;
+       margin-left: 80px;
+    }
+}

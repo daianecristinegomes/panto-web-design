@@ -24,6 +24,39 @@ ul {
     color: #FFFFFF;
 }
 
+.icon-down-arrow {
+    margin-left: 12px;
+}
+
 .icon-bag {
     margin-right: 84px;
+
 }
+
+@media screen and (max-width: 680px) {
+
+    h1 {
+        margin-left: 40px;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: baseline;
+    }
+
+    ul {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 10px 0;
+        margin-left: 22px;
+    }
+
+    .icon-bag {
+        position: absolute;
+        margin-left: 285px;
+        width: 22px
+    }
+ }
