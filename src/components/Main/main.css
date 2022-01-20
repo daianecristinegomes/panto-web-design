@@ -1,0 +1,179 @@
+
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text {
+    font-family:'Gilroy-Bold';
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 14px;
+    width: 861px;
+    height: 208px;
+    line-height: 130%;
+    font-size: 80px;
+    color: #FFFFFF;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 160%;
+    line-height: 160%;
+    width: 606px;
+    height: 76px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 45px;
+}
+
+.input-search {
+    display: flex;
+    margin: auto;
+    margin-bottom: 530px;
+
+}
+
+input {
+    
+    padding: 0 8px 0 20px;
+    width: 344px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.861538px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    border-radius: 42px;
+    color: #FFFFFF; 
+}
+.placeholder::placeholder {
+    font-size: 18px;
+    line-height: 150%;
+    opacity: 0.8;
+    color: #FFFFFF; 
+}
+
+.icon-search {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 40px;
+    height: 40px;
+    margin-left: 295px;
+    margin-top: 8px;
+    z-index: 1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.section-two {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Gilroy-Bold';
+    width: 242px;
+    height: 104px;
+    font-size: 42px;
+    line-height: 49px;
+    margin: 158px 130px 134px 80px;
+    color: #1E1E1E;
+}
+
+.article-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E1E1E;
+    opacity: 0.9;
+    margin-bottom: 20px
+}
+
+.p-section-two {
+    width: 284px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 185%;
+    margin-right: 28px;
+
+}
+
+.more-info {
+    width: 60px;
+    height: 26px;  
+    font-size: 14px;
+    line-height: 185%; 
+    margin-top: 14px;
+    margin-right: 17.5px;
+    color: #E58411;
+}
+
+.icon-arrow {
+    width: 37.5px;
+    height: 10.8px;
+    margin-top: 22px;
+}
+
+.more-info-icon {
+    display: flex;
+    
+}
+
+.section-tree {
+    display: flex;
+
+}
+
+.img-living-room {
+    width: 629px;
+    height: 445px;
+    margin-left: 46px;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 141px;
+}
+
+.title-experiences {
+    font-family: 'Gilroy-Semi-Bold';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+    color: #E58411;
+}
+
+.paragraph-section-tree {
+    font-family: 'Gilroy-Bold';
+    font-size: 42px;
+    line-height: 49px;
+    width: 413px;
+    height: 104px;
+    text-transform: capitalize;
+    color: #1E1E1E; 
+    margin-top: 20px;
+    margin-right: 211px;
+    margin-bottom: 20px;
+}
+
+.simple-paragraph {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 185%;
+    width: 556px;
+    height: 132px;
+    margin-right: 68px;
+}
